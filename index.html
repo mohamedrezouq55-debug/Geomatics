@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mohamed Boulal | GeoVision Portfolio</title>
+
+    <meta name="description"
+        content="Professional Geomatics & Territorial Development Portfolio">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Leaflet -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+</head>
+
+<body>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="header">
+
+    <div class="container">
+
+        <a href="#" class="logo">
+
+            <i class="fa-solid fa-earth-africa"></i>
+
+            GeoVision
+
+        </a>
+
+
+        <nav class="navbar">
+
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#maps">Maps</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+
+        <div class="menu-btn">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="container hero-container">
+
+
+        <div class="hero-content">
+
+            <span class="tag">
+
+                GIS • Remote Sensing • Python
+
+            </span>
+
+
+            <h1>
+
+                Mohamed Rezouq
+
+            </h1>
+
+
+            <h2>
+
+                Geomatics & Territorial Development Student
+
+            </h2>
+
+
+            <p>
+
+                Passionate about GIS, Remote Sensing,
+                Spatial Data Analysis and Smart Cities.
+                I build geographic solutions using
+                QGIS, ArcGIS Pro, Python and Web GIS.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn">
+
+                    View Projects
+
+                </a>
+
+
+                <a href="cv/MOHAMED REZOUQ.pdf"
+
+                    class="btn btn-outline"
+
+                    target="_blank">
+
+                    Download CV
+
+                </a>
+
+            </div>
+
+
+
+            <div class="social-icons">
+
+                <a href="https://www.linkedin.com/in/mohamed-rezouq/"
+
+                    target="_blank">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+
+                <a href="#">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+
+                <a href="#">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="hero-map">
+
+            <div id="main-map"></div>
+
+        </div>
+
+    </div>
+
+</section>
+</section>
+<!-- ================= ABOUT ================= -->
+
+<section class="about section" id="about">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>About Me</h2>
+
+            <p>
+                Transforming geographic data into meaningful decisions.
+            </p>
+
+        </div>
+
+
+        <div class="about-grid">
+
+
+            <div class="about-image">
+
+                <img src="images/profile.png"
+                    alt="Mohamed Rezouq">
+
+            </div>
+
+
+
+            <div class="about-content">
+
+                <h3>
+
+                    Hello, I'm Mohamed.
+
+                </h3>
+
+
+                <p>
+
+                    I am a Geography student specialized in
+                    Geomatics and Territorial Development.
+
+                    My interests include Geographic Information
+                    Systems (GIS), Remote Sensing,
+                    Spatial Analysis, Urban Planning,
+                    Python Programming and Smart Cities.
+
+                </p>
+
+
+                <p>
+
+                    My objective is to develop innovative
+                    geographic solutions using spatial data,
+                    satellite imagery and modern GIS
+                    technologies.
+
+                </p>
+
+
+                <div class="about-info">
+
+                    <div>
+
+                        <strong>University</strong>
+
+                        <span>Hassan II University</span>
+
+                    </div>
+
+
+
+                    <div>
+
+                        <strong>Major</strong>
+
+                        <span>Geomatics & Territorial Development</span>
+
+                    </div>
+
+
+
+                    <div>
+
+                        <strong>Country</strong>
+
+                        <span>Morocco</span>
+
+                    </div>
+
+
+
+                    <div>
+
+                        <strong>Languages</strong>
+
+                        <span>Arabic • English • French</span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- ================= STATISTICS ================= -->
+
+<section class="stats">
+
+    <div class="container stats-grid">
+
+
+        <div class="stat-box">
+
+            <h2>13+</h2>
+
+            <p>GIS Projects</p>
+
+        </div>
+
+
+
+        <div class="stat-box">
+
+            <h2>8+</h2>
+
+            <p>Software Skills</p>
+
+        </div>
+
+
+
+        <div class="stat-box">
+
+            <h2>20+</h2>
+
+            <p>Maps Created</p>
+
+        </div>
+
+
+
+        <div class="stat-box">
+
+            <h2>100%</h2>
+
+            <p>Learning Motivation</p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- ================= SKILLS ================= -->
+
+<section class="skills section" id="skills">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>
+
+                Technical Skills
+
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+                <h3>GIS</h3>
+
+                <p>
+
+                    QGIS<br>
+                    ArcGIS Pro<br>
+                    Spatial Analysis
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-satellite"></i>
+
+                <h3>
+
+                    Remote Sensing
+
+                </h3>
+
+                <p>
+
+                    Landsat<br>
+                    Sentinel<br>
+                    NDVI Analysis
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-code"></i>
+
+                <h3>
+
+                    Programming
+
+                </h3>
+
+                <p>
+
+                    Python<br>
+                    Pandas<br>
+                    GeoPandas
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-chart-column"></i>
+
+                <h3>
+
+                    Data Analysis
+
+                </h3>
+
+                <p>
+
+                    Excel<br>
+                    Power BI<br>
+                    Statistics
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-earth-africa"></i>
+
+                <h3>
+
+                    Web GIS
+
+                </h3>
+
+                <p>
+
+                    Leaflet<br>
+                    GeoJSON<br>
+                    Interactive Maps
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-city"></i>
+
+                <h3>
+
+                    Urban Planning
+
+                </h3>
+
+                <p>
+
+                    Smart Cities<br>
+                    Territorial Development
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= PROJECTS ================= -->
+
+<section class="projects section" id="projects">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Featured Projects</h2>
+
+            <p>
+                Some of my GIS and Geomatics projects.
+            </p>
+
+        </div>
+
+        <div class="projects-grid">
+
+
+            <article class="project-card">
+
+                <img src="images/7.png"
+                    alt="Urban Analysis">
+
+                <div class="project-content">
+
+                    <h3>Urban Expansion Analysis</h3>
+
+                    <p>
+
+                        Monitoring urban growth using
+                        satellite imagery, GIS and
+                        spatial analysis.
+
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>QGIS</span>
+                        <span>Landsat</span>
+                        <span>GIS</span>
+
+                    </div>
+
+                    <a href="#" class="btn-small">
+
+                        View Project
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+
+            <article class="project-card">
+
+                <img src="images/4.png"
+                    alt="Flood Risk">
+
+                <div class="project-content">
+
+                    <h3>Flood Risk Assessment</h3>
+
+                    <p>
+
+                        Hydrological analysis using DEM,
+                        drainage networks and slope
+                        analysis.
+
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>Hydrology</span>
+                        <span>DEM</span>
+                        <span>Spatial Analysis</span>
+
+                    </div>
+
+                    <a href="#" class="btn-small">
+
+                        View Project
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+
+
+            <article class="project-card">
+
+                <img src="images/321.png"
+                    alt="NDVI">
+
+                <div class="project-content">
+
+                    <h3>NDVI Vegetation Mapping</h3>
+
+                    <p>
+
+                        Vegetation monitoring using
+                        Sentinel-2 satellite imagery.
+
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>Sentinel</span>
+                        <span>NDVI</span>
+                        <span>Remote Sensing</span>
+
+                    </div>
+
+                    <a href="#" class="btn-small">
+
+                        View Project
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card">
+
+                <img src="images/8.png"
+                    alt="Population Density">
+
+                <div class="project-content">
+
+                    <h3>Population Density</h3>
+
+                    <p>
+
+                        Spatial analysis of demographic
+                        distribution using GIS.
+
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>Statistics</span>
+                        <span>GIS</span>
+                        <span>Mapping</span>
+
+                    </div>
+
+                    <a href="#" class="btn-small">
+
+                        View Project
+
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- ================= MAP GALLERY ================= -->
+
+<section class="maps section" id="maps">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Interactive Maps</h2>
+
+            <p>
+
+                Interactive GIS visualizations.
+
+            </p>
+
+        </div>
+
+
+        <div class="maps-grid">
+
+
+            <div class="map-item">
+
+                <img src="images/map1.jpg"
+                    alt="Map">
+
+                <div class="overlay">
+
+                    <h3>
+
+                        Urban Growth
+
+                    </h3>
+
+                    <a href="#" class="btn-small">
+
+                        Open Map
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="map-item">
+
+                <img src="images/map2.jpg"
+                    alt="Map">
+
+                <div class="overlay">
+
+                    <h3>
+
+                        Flood Hazard
+
+                    </h3>
+
+                    <a href="#" class="btn-small">
+
+                        Open Map
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="map-item">
+
+                <img src="images/map3.jpg"
+                    alt="Map">
+
+                <div class="overlay">
+
+                    <h3>
+
+                        NDVI Analysis
+
+                    </h3>
+
+                    <a href="#" class="btn-small">
+
+                        Open Map
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="map-item">
+
+                <img src="images/map4.jpg"
+                    alt="Map">
+
+                <div class="overlay">
+
+                    <h3>
+
+                        Land Use
+
+                    </h3>
+
+                    <a href="#" class="btn-small">
+
+                        Open Map
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- ================= RESEARCH ================= -->
+
+<section class="research section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>
+
+                Research Interests
+
+            </h2>
+
+        </div>
+
+        <div class="research-grid">
+
+            <div class="research-card">
+
+                <i class="fa-solid fa-city"></i>
+
+                <h3>
+
+                    Smart Cities
+
+                </h3>
+
+                <p>
+
+                    Urban innovation, digital twins,
+                    sustainable planning and GIS.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="research-card">
+
+                <i class="fa-solid fa-mountain"></i>
+
+                <h3>
+
+                    Geomorphology
+
+                </h3>
+
+                <p>
+
+                    Terrain analysis,
+                    slope modelling,
+                    environmental monitoring.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="research-card">
+
+                <i class="fa-solid fa-satellite-dish"></i>
+
+                <h3>
+
+                    Earth Observation
+
+                </h3>
+
+                <p>
+
+                    Satellite imagery,
+                    remote sensing,
+                    environmental change.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= CONTACT ================= -->
+
+<section class="contact section" id="contact">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Let's Connect</h2>
+
+            <p>
+                Feel free to contact me for GIS projects,
+                research collaboration or professional opportunities.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <div class="contact-card">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <h3>Email</h3>
+
+                <p>mohamedrezou70@gmail.com</p>
+
+                <a href="mailto:your-email@example.com">
+
+                    Send Email
+
+                </a>
+
+            </div>
+
+
+
+
+            <div class="contact-card">
+
+                <i class="fab fa-linkedin"></i>
+
+                <h3>LinkedIn</h3>
+
+                <p>Professional Profile</p>
+
+                <a href="https://www.linkedin.com/in/mohamed-rezouq/"
+                    target="_blank">
+
+                    Visit Profile
+
+                </a>
+
+            </div>
+
+
+
+
+
+            <div class="contact-card">
+
+                <i class="fab fa-github"></i>
+
+                <h3>GitHub</h3>
+
+                <p>Source Code & GIS Projects</p>
+
+                <a href="#">
+
+                    Coming Soon
+
+                </a>
+
+            </div>
+
+
+
+
+
+            <div class="contact-card">
+
+                <i class="fa-solid fa-file-arrow-down"></i>
+
+                <h3>Curriculum Vitae</h3>
+
+                <p>Download my latest CV</p>
+
+                <a href="cv/MOHAMED REZOUQ.pdf"
+                    target="_blank">
+
+                    Download CV
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-logo">
+
+            <i class="fa-solid fa-earth-africa"></i>
+
+            <span>GeoVision</span>
+
+        </div>
+
+
+
+        <p>
+
+            © 2026 Mohamed Boulal
+
+            <br>
+
+            Geomatics • GIS • Remote Sensing • Web GIS
+
+        </p>
+
+
+
+        <div class="footer-social">
+
+            <a href="https://www.linkedin.com/in/mohamed-rezouq/"
+                target="_blank">
+
+                <i class="fab fa-linkedin"></i>
+
+            </a>
+
+
+
+            <a href="#">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+
+
+            <a href="#">
+
+                <i class="fa-solid fa-envelope"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
